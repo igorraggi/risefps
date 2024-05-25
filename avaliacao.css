@@ -402,7 +402,7 @@ footer {
  
 }
 
-.discord h1 {
+.discord h3 {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -432,3 +432,59 @@ footer {
     margin-bottom: 50px;
     
 }
+
+h1,p {
+    animation: appear 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+  }
+  
+  @keyframes appear {
+    from {
+      opacity: 0;
+      translate: -100vw 0;
+    }
+    
+    to {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+
+  img {
+    animation: reveal 1ms ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 25% cover 50%;
+  }
+  
+  .c-indicator {
+    animation: scroll 1ms ease-in-out;
+    animation-timeline: scroll(root);
+    background-color: tomato;
+    transform-origin: left;
+    height: var(--scroll-height);
+    inset: 0;
+    position: fixed;
+  }
+  
+  @keyframes scroll {
+    from {
+      scale: 0 1;
+    }
+    
+    to {
+      scale: 1 1;
+    }
+  }
+  
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      clip-path: inset(45% 20% 45% 20%);
+    }
+  
+    to {
+      opacity: 1;
+      clip-path: inset(0% 0% 0% 0%);
+    }
+  }
