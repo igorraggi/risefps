@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&family=Poppins:ital,wght@0,400;0,700;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    height: 338vh;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+}
+
+header.rolagem{
+   background-color: #323439;
+   padding: 15px 4%;
+}
+
+header.rolagem a, header.rolagem i {
+    color: #ffae81;
+}
+
+header i {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+header ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+    
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.banner {
+    height: 100vh;
+    background-image: url(/imgs/risefps.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141A24;
+    
+}
+
+.banner h1 {
+    font-size: 100px;
+    color: #FFF;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.banner span {
+    color: #FFF;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-code i {
+    color: black;
+    
+}
+
+.btn-code button {
+    background-color: #b4a1b4;   
+    padding: 5px;
+    border-radius: 10px;
+    transition: .2s;
+    cursor: pointer;
+    width: 120;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home h1 {
+    margin-left: 150px;
+}
+
+.home p {
+    margin-left: 150px;
+}
+
+.home img {
+    height: 400px;
+    margin: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+
+
+.banner2 {
+    background-image: url(/imgs/Banner\ Paisagem\ Sonho\ Da\ Casa\ Própria\ Imobiliária\ Moderno\ Roxo\ E\ Branco.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.abaixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: #b4a1b4;
+    border-radius: 10px;
+    margin-top: 150px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.card1 {
+    height: 300px;
+    width: 300px;
+    background-color: #b4a1b4;
+    border-radius: 10px;
+    margin-top: 150px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.card3 {
+    height: 300px;
+    width: 300px;
+    background-color: #b4a1b4;
+    border-radius: 10px;
+    margin-top: 150px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    padding: 15px;
+    margin-right: 50px;
+
+}
+
+.texto {
+    height: 100px;
+    color: #A2A2A2;
+    margin-left: 15px;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto h1 span {
+    color: #FFF;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+ 
+}
+
+.texto h1 {
+    color: #a2a2a2;
+    font-size: 60px;
+    
+}
+
+.texto p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.usuario {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF;
+    font-size: .75rem;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.home2 h1 {
+    margin-left: 100px;
+    color: #0B121E;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+
+}
+
+.home2 p {
+    margin-left: 100px;
+    color: #0B121E;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+}
+
+.home2 img {
+    height: 400px;
+    margin: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home h1 {
+    margin-left: 150px;
+    color: #0B121E;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+}
+
+.home p {
+    margin-left: 150px;
+    color: #0B121E;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+}
+
+.home img {
+    height: 400px;
+    margin: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.home3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.home3 h1 {
+    margin-left: 150px;
+    color: #0B121E;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+}
+
+.home3 p {
+    margin-left: 150px;
+    color: #0B121E;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+}
+
+.home3 img {
+    height: 400px;
+    margin: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.card4ava {
+    background-color: #EEEEEE;
+    height: 400px;
+    width: 1000px;
+    margin-left: 450px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.card4ava img {
+  margin: 10px;
+}
+
+.card4ava h1{
+    margin-bottom: 50px;
+}
+
+
+
+.comp h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 40px;
+
+}
+
+.imgcomp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 70px;
+}
+
+footer {
+    
+    background-color: #0B121E;
+    height: 70px;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    border-radius: 0;
+    text-align: center;
+    background-position: bottom;
+    
+    padding: 3px;
+    bottom: 0;
+    left: 0;
+    color: lightgrey;
+ 
+ 
+}
